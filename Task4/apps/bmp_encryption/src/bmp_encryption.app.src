@@ -1,0 +1,13 @@
+{application, bmp_encryption,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  cowboy
+                 ]},
+  {mod, { bmp_encryption_app, []}},
+  {env, []}
+ ]}.
